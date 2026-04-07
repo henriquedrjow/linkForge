@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "linkforge"
+version = "0.1.0"
+description = "LinkForge AI Co-founder Platform"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+pydantic = "^2.7.1"
+# Placeholder for actual AI/ML dependencies
+# Example: transformers = "^4.30.0"
+# Example: torch = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0" # For development and testing
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
